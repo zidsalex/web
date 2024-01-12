@@ -36,12 +36,12 @@
     <th><h2>&nbsp;</h2></th>
   </tr>
   </table>
-  <table class='th2' bgcolor="#DD1418" align="justify">  
+  <table class='th2'>  
     <tr>  
       <th><h3><a style="text-decoration:none" href="/">Home</a></th>
       <th><h3><a style="text-decoration:none" href="/works" >Works</a></th>
       <th><h3><a style="text-decoration:none" href="/about">About</a></th>
-      <th bgcolor="white"> <h3><a style="text-decoration:none" href="/contact"><u>Contact</u></a></th>
+      <th><h3><a style="text-decoration:none" href="/contact"><u>Contact</u></a></th>
       <th><h3><a style="text-decoration:none" href="/store">Store</h3></th>
     </tr>
   </table>
@@ -75,7 +75,7 @@
   <!-- CONTENT -->
 
   <br><br><br><br><br><br><br><br>
-  <table class='foot' bgcolor="#DD1418">
+  <table class='foot'>
     <tr>
       <th><a href="/">
         <img src="https://i-8.soko.eu.org/sc/home.svg" alt="home" style="height:20px;"></a></th>
@@ -90,7 +90,7 @@
     </tr>
   </table>
   
-  <table class='social' bgcolor="white">
+  <table class='social'>
     <tr>
       <th><a href="/" target="blank">
           <img src="https://i-8.soko.eu.org/sc/id.svg" alt="indischland" style="height:20px;"></a></th>
@@ -118,17 +118,22 @@
       color: #4b4b4b;
     font-family: 'arial';
     }
+  a:link {
+    color: black;
+  }
   table {
     align: center;
   }
-    .th1 {
+  .th1 {
   position: fixed;
+  background-color: #EBE0D4;
       width:300px;
       top: -6px;
   }
-    .th2 {
-      background-image: linear-gradient(to right, red, pink);
-  position: fixed;
+  .th2 {
+    background-image: linear-gradient(rgb(202, 130, 87),rgb(202, 130, 87),rgb(202, 130, 87, 0.8), rgb(202, 130, 87, 0.6));
+      position: fixed;
+      align: center;
       top: 60px;
       width:300px;
     border:5px;
@@ -137,6 +142,7 @@
   }
     .social {
   position: fixed;
+  background-color: #EBE0D4;
       bottom: 0px;
       width:300px;
   }
@@ -146,7 +152,7 @@
       bottom: 36px;
       width:300px;
       height: 60px;
-      background-image: linear-gradient(to right, red, pink);
+      background-image: linear-gradient(to top,rgb(202, 130, 87),rgb(202, 130, 87),rgb(202, 130, 87, 0.8), rgb(202, 130, 87, 0.6));
       border:5px;
       border-style: ridge;
       border-color: #D3D3D3;
